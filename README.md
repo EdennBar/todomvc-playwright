@@ -1,3 +1,9 @@
+
+![Screenshot 2024-05-04 at 17 05 38](https://github.com/EdennBar/todomvc-playwright/assets/88652432/e8d828bf-d426-4527-b764-f9df79426863)
+
+
+
+
 # Installation
 
 To install the necessary dependencies for running the tests, simply run:

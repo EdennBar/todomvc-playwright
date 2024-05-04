@@ -7,7 +7,6 @@ test.beforeEach(async ({ navigationPage }) => {
 });
 
 test.describe("Todo Suite", () => {
-  let page: Page;
   test("Verify that items were added to the todo list", async ({
     todoPage,
   }) => {
@@ -22,7 +21,6 @@ test.describe("Todo Suite", () => {
   });
 
   test("Verify that the main and footer sections are displayed", async ({
-    page,
     todoPage,
   }) => {
     await todoPage.addItemToToList(TODO_ITEMS[0]);
@@ -31,7 +29,6 @@ test.describe("Todo Suite", () => {
   });
 
   test("Verify that all items can be marked as completed", async ({
-    page,
     todoPage,
   }) => {
     await todoPage.addItemToToList(TODO_ITEMS[0]);
@@ -47,12 +44,10 @@ test.describe("Todo Suite", () => {
   });
 
   test("Verify that checking the toggle marks an item as completed ", async ({
-    page,
     todoPage,
   }) => {
     await todoPage.addItemToToList(TODO_ITEMS[0]);
     await todoPage.toggle.check();
     await expect(todoPage.todoItem).toHaveClass("completed");
-    await page.waitForTimeout(4000);
   });
 });
