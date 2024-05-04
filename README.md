@@ -1,30 +1,59 @@
-There are 2 options to run the test suit:
+# Installation
 
-first option: 
-  chmod +x run-selenium-grid.sh
-  ./run-selenium-grid.sh
-  It will generte 1 folder:
-    1)allure-report
+To install the necessary dependencies for running the tests, simply run:
 
-  Navigate to:
-  Allure API is working. Go to -> http://localhost:5050/allure-docker-service/latest-report
-  Allure UI is working. Go to -> http://localhost:5252/allure-docker-service-ui/
+1.  ```bash
+    npm install
+    ```
+# Test Suite Execution Options
 
-  
+## Option 1: Run with Selenium Hub Grid, allure with compose
 
-![Screenshot 2024-05-04 at 15 28 00](https://github.com/EdennBar/todomvc-playwright/assets/88652432/5a3b7ffb-323a-4713-9beb-38ac8a789386)
-![Screenshot 2024-05-04 at 15 47 34](https://github.com/EdennBar/todomvc-playwright/assets/88652432/73d1a8d4-3ce7-43be-83ef-619d6b9acaef)
-![Screenshot 2024-05-04 at 15 29 50](https://github.com/EdennBar/todomvc-playwright/assets/88652432/42987c68-c7b5-4acc-ba34-2da62e8a9d59)
+1. **Steps:**
+   - Make the script executable:
+     ```bash
+     chmod +x run-selenium-grid.sh
+     ```
+   - Run the script:
+     ```bash
+     ./run-selenium-grid.sh
+     ```
 
-2) The second option run it locally with compose: DOCS: -> https://www.npmjs.com/package/allure-playwright
-   npx playwright test --headed
-   Generate Allure Report:
-   allure generate allure-results -o allure-report --clean
-   Open Allure Report:
-   allure open allure-report/ or open it with Live Server..
-It will generte 2 folders:
-  1) allure-report
-  2) allure-results
-     
-![Screenshot 2024-05-04 at 16 16 41](https://github.com/EdennBar/todomvc-playwright/assets/88652432/299d73a8-068d-440b-a254-d46038acb69c)
-![Screenshot 2024-05-04 at 16 17 03](https://github.com/EdennBar/todomvc-playwright/assets/88652432/62451f32-7494-40ca-81dd-49129b0fde47)
+2. **Generated Folder:**
+   - `allure-reports`
+
+3. **Navigation:**
+   - Allure API: [http://localhost:5050/allure-docker-service/latest-report](http://localhost:5050/allure-docker-service/latest-report)
+   - Allure UI: [http://localhost:5252/allure-docker-service-ui/](http://localhost:5252/allure-docker-service-ui/)
+
+4. **Watch Tests:**
+   - [http://localhost:4444/ui](http://localhost:4444/ui)
+     - LiveView VNC Password: `secret`
+
+![Screenshot 2024-05-04 at 15 28 00](https://github.com/EdennBar/todomvc-playwright/assets/88652432/d4782daf-6449-484e-b636-65142815fa20)
+![Screenshot 2024-05-04 at 15 47 34](https://github.com/EdennBar/todomvc-playwright/assets/88652432/1780b6f4-5b3f-47f6-bd4d-1deb0935495d)
+![Screenshot 2024-05-04 at 16 16 41](https://github.com/EdennBar/todomvc-playwright/assets/88652432/27446e65-293c-479c-8c38-ae3b795ecb5e)
+![Screenshot 2024-05-04 at 16 17 03](https://github.com/EdennBar/todomvc-playwright/assets/88652432/84d04f6a-55b1-492a-9280-ee0a6d0f6c8a)
+
+## Option 2: 
+
+1. **Steps:**
+   - Run tests:
+     ```bash
+     npx playwright test --headed
+     ```
+   - Generate Allure Report:
+     ```bash
+     allure generate allure-results -o allure-report --clean
+     ```
+   - Open Allure Report:
+     ```bash
+     allure open allure-report/
+     ```
+
+2. **Generated Folders:**
+   1. allure-report
+   2. allure-results
+
+
+
