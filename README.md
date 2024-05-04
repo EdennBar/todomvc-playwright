@@ -38,6 +38,9 @@ To install the necessary dependencies for running the tests, simply run:
 
 ![Screenshot 2024-05-04 at 15 28 00](https://github.com/EdennBar/todomvc-playwright/assets/88652432/d4782daf-6449-484e-b636-65142815fa20)
 ![Screenshot 2024-05-04 at 15 47 34](https://github.com/EdennBar/todomvc-playwright/assets/88652432/1780b6f4-5b3f-47f6-bd4d-1deb0935495d)
+
+Click on the menu icon and then on Default.
+
 ![Screenshot 2024-05-04 at 16 16 41](https://github.com/EdennBar/todomvc-playwright/assets/88652432/27446e65-293c-479c-8c38-ae3b795ecb5e)
 ![Screenshot 2024-05-04 at 16 17 03](https://github.com/EdennBar/todomvc-playwright/assets/88652432/84d04f6a-55b1-492a-9280-ee0a6d0f6c8a)
 
