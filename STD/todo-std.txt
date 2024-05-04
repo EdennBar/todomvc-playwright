@@ -1,0 +1,22 @@
+Test Case 1: Verify items added to todo list
+- Add a todo item to the list.
+- Verify the count of items is updated correctly.
+- Verify the added items match the provided TODO_ITEMS.
+
+Test Case 2: Verify main and footer sections displayed
+- Add a todo item to the list.
+- Verify if the main and footer sections are visible.
+
+Test Case 3: Verify all items can be marked as completed
+- Add a todo item to the list.
+- Check the toggleAll
+- Verify item as completed.
+
+Test Case 4: Verify text input field cleared after adding an item
+- Add a todo item to the list.
+- Verify the text input field is cleared after adding an item.
+
+Test Case 5: Verify toggle marks an item as completed
+- Add a todo item to the list.
+- Check the toggle for the todo item.
+- Verify the todo item is marked as completed after toggling.
