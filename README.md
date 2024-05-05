@@ -1,5 +1,6 @@
 
-![Screenshot 2024-05-04 at 17 05 38](https://github.com/EdennBar/todomvc-playwright/assets/88652432/e8d828bf-d426-4527-b764-f9df79426863)
+![Screenshot 2024-05-05 at 12 34 21](https://github.com/EdennBar/todomvc-playwright/assets/88652432/42f530a7-3121-4288-bef2-e07ae62264af)
+
 
 
 
